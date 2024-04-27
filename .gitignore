@@ -1,5 +1,8 @@
 /node_modules
 
 /.next/
+/coverage
+/.swc/
 
+.DS_Store
 next-env.d.ts
