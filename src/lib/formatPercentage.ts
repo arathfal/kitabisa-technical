@@ -1,4 +1,4 @@
-export const formatPercentage = (value: number): number => {
+export default function formatPercentage(value: number): number {
   let percentage = value * 100
   if (percentage > 100) {
     percentage = 100

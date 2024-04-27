@@ -1,7 +1,7 @@
 'use client'
 import { useMemo } from 'react'
 
-import useFilter from '@/store/useFilter'
+import useFilter from '@/store/filter'
 import { Donation } from '@/types/donation'
 
 import Card from '../Card'
@@ -34,7 +34,10 @@ export default function ListCard({ list = [] }: ListCardProps) {
   }, [list, sort])
 
   return (
-    <div className="grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-2 lg:grid-cols-3">
+    <div
+      data-testid="list-card-test"
+      className="grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-2 lg:grid-cols-3"
+    >
       {sortedList?.map((item) => <Card key={item?.title} data={item} />)}
     </div>
   )

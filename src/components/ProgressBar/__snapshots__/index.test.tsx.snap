@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProgressBar Component should render with text value 0 1`] = `
+<DocumentFragment>
+  <div
+    class="relative w-full overflow-hidden rounded-full bg-slate-300"
+  >
+    <div
+      class="h-2 text-right bg-gray-500"
+      style="width: 0%;"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`ProgressBar Component should render with text value 100 1`] = `
+<DocumentFragment>
+  <div
+    class="relative w-full overflow-hidden rounded-full bg-slate-300"
+  >
+    <div
+      class="h-2 text-right bg-pink-500"
+      style="width: 100%;"
+    />
+  </div>
+</DocumentFragment>
+`;

@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import { formatPercentage } from '@/lib/formatPercentage'
+import formatPercentage from '@/lib/formatPercentage'
 import { Donation } from '@/types/donation'
 
 import ProgressBar from '../ProgressBar'
