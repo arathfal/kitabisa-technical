@@ -12,7 +12,7 @@ export default function Button({ className, disabled, children, ...props }: Butt
   return (
     <button
       className={classNames(
-        'h-10 w-auto rounded-md border border-slate-300 bg-white px-4 py-2 text-slate-950 transition-all hover:bg-slate-300',
+        'w-auto rounded-md border border-slate-300 bg-white px-4 py-2 leading-none text-slate-950 transition-all hover:bg-slate-300',
         disabled && 'pointer-events-none bg-slate-500 text-white',
         className
       )}

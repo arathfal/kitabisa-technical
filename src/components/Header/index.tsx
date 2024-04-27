@@ -9,7 +9,7 @@ export default function Header() {
     <header className="mb-10 flex items-center justify-between gap-4 py-4">
       <div className="flex items-center gap-2">
         <Image src={Logo} alt="Kitabisa" width={50} height={50} />
-        <h3 className="text-primary hidden sm:block md:text-xl">
+        <h3 className="xs:block hidden text-xl text-primary">
           <strong>Kitabisa</strong>
         </h3>
       </div>

@@ -6,6 +6,9 @@ const config: Config = {
     extend: {
       colors: {
         primary: '#1b9cdc'
+      },
+      screens: {
+        xs: '480px'
       }
     }
   },

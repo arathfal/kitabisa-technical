@@ -42,7 +42,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={classNames(inter.className, 'px-4 md:px-12')}>
+      <body className={classNames(inter.className, 'p-4 md:px-12')}>
         <Header />
         {children}
       </body>
