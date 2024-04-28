@@ -7,6 +7,7 @@
 3. **NextJS**: NextJS simplifies server-side rendering and routing for React applications, enhancing performance and SEO while improving developer productivity.
 4. **Zustand**: Zustand offers a simple way to manage state in React applications, making it easy to share data between components without complex setup.
 5. **TailwindCSS**: TailwindCSS provides a set of utility classes for styling HTML elements, enabling rapid development and customization of designs without writing custom CSS.
+6. **Jest**: Jest is chosen because it's easy to use and helps catch bugs early by testing JavaScript and React code quickly.
 
 ## Prerequisites
 
